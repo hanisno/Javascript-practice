@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 20px 40px;
+  background: white;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 5px 5px 20px rgb(151, 151, 151);
+}
+
+h1 {
+  font-family: "Patrick Hand", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(41, 41, 41);
+}
+
+ul li {
+  font-family: "Patrick Hand", cursive;
+}
+
+ul {
+  list-style-type: lower-roman;
+  font-size: 20px;
+  padding-left: 15px;
+  color: rgb(41, 41, 41);
+}
+
+.add-item-btn {
+  background: rgb(255, 130, 193);
+  border: none;
+  padding: 12px;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+}
+
+.add-item-input {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px rgb(219, 219, 219) solid;
+  outline: none;
+}
